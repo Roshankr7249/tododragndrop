@@ -41,7 +41,6 @@ const TodoList = ({ items, droppableId }) => (
         style={getListStyle(snapshot.isDraggingOver)}
         {...provided.droppableProps}
       >
-        <p>...</p>
         {/* <MoreHorizontal/> */}
         {items.map((item, index) => (
           <Draggable key={item.id} draggableId={item.id} index={index}>

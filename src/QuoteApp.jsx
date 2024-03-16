@@ -60,9 +60,9 @@ const QuoteApp = () => {
     if (newTodo.trim() !== "") {
       setState({
         ...state,
-        todo: [
-          ...state.todo,
-          { id: `item-${state.todo.length}`, content: newTodo },
+        Todo: [
+          ...state.Todo,
+          { id: `item-${state.Todo.length}`, content: newTodo },
         ],
       });
       setNewTodo("");
