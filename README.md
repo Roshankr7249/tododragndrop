@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Subject: Roshan Kumar Quest React Engineer 1 - Round 1 submission
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple todo board built using React.js. It allows users to create, organize, and manage their tasks in different categories such as Todo, InProgress, Review, and Done.
+Users can drag and drop tasks between these categories for easy organization and tracking of their progress.
 
-## Available Scripts
+Modules Used:
 
-In the project directory, you can run:
+1. React: The project is built using a popular JavaScript library for building user interfaces that is React.js,
 
-### `npm start`
+2. react-beautiful-dnd: This module is used for implementing drag-and-drop functionality in the todo board. It provides a simple and intuitive API for handling drag-and-drop interactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. @fortawesome/react-fontawesome: This module is used for adding FontAwesome icons to the todo items.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Development Time:
+The development of this project took approximately 3.5 to 4 hours. This includes planning, design, implementation, testing, and debugging.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Additional Details:
 
-### `npm run build`
+The project consists of multiple components such as App, QuoteApp, TodoSection, and TodoList, each responsible for different parts of the application's functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styling is done using CSS, with single CSS file named App.css.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application supports adding new todo items dynamically using an input field and a button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each todo item can be dragged and dropped between different categories, reflecting its current status.
 
-### `npm run eject`
+The project follows best practices in React development, including the use of functional components, state management with hooks, and modular component design.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Future enhancements could include features like data persistence, user authentication, and more advanced task management capabilities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run this project locally, follow these steps:
 
-## Learn More
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install dependencies using npm install.
+Start the development server using npm start.
+Open your browser and visit http://localhost:3000 to view the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Roshan Kumar - https://roshankr7249.github.io/ - mindsspiritual0@gmail.com
