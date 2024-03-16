@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.section {
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.cards {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-card {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styling for drag-and-drop */
+.react-beautiful-dnd-drag-handle {
+  cursor: grab;
+}
+
+.react-beautiful-dnd-dragging {
+  transition: background-color 0.2s ease;
+}
+
+.react-beautiful-dnd-dragging .card {
+  background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(20, 20, 20, 15);
+  margin-bottom: 10px;
+  
+}
+
+.todo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hamburger-icon {
+  margin-right: 20px;
+}
+
+
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.main{
+  background-color: aqua;
+  width: 100%;
+
+}
+.listitem{
+  border: 1px solid black;
+  gap: 10px;
+  background-color: white;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.cardarea{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  /* border: 1px solid red; */
+  background-color: aqua;
+
+}
+
+.innerarea{
+  /* border: 1px solid red; */
+}
+.add{
+  position: inherit;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
