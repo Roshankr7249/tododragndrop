@@ -3,6 +3,8 @@ Subject: Roshan Kumar Quest React Engineer 1 - Round 1 submission
 This project is a simple todo board built using React.js. It allows users to create, organize, and manage their tasks in different categories such as Todo, InProgress, Review, and Done.
 Users can drag and drop tasks between these categories for easy organization and tracking of their progress.
 
+Deployed Link: https://tododragndrop.vercel.app/
+
 Modules Used:
 
 1. React: The project is built using a popular JavaScript library for building user interfaces that is React.js,
@@ -38,5 +40,7 @@ Navigate to the project directory.
 Install dependencies using npm install.
 Start the development server using npm start.
 Open your browser and visit http://localhost:3000 to view the application.
+
+Deployed Link: https://tododragndrop.vercel.app/
 
 Roshan Kumar - https://roshankr7249.github.io/ - mindsspiritual0@gmail.com
